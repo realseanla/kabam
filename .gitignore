@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ignore files in data and assignment directories to keep kabam's assignment private
+data
+data/*
+assignment
+assignment/*
