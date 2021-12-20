@@ -9,8 +9,7 @@ I used conda as my main environment manager.
 To replicate my analysis, do the following:
 - Run `conda env create -f environment.yml` to create the `kabam` conda environment that I used from the `environment.yml` conda environment configuration file.
 - Activate the environment using `conda activate kabam`.
-- In the `data`, place into it the following:
-  - `data_dictionary.txt`,
+- In the `data` directory, place into it the following:
   - `ka_actions.parquet`,
   - `ka_devices.db`,
   - `ka_users.csv`, and
