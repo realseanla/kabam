@@ -11,7 +11,6 @@ To replicate my analysis, do the following:
 - Activate the environment using `conda activate kabam`.
 - In the `data` directory, place into it the following:
   - `ka_actions.parquet`,
-  - `ka_devices.db`,
-  - `ka_users.csv`, and
-  - and a subdirectory `processed` which will contain a merged form of the above three files.
+  - `ka_devices.db`, and
+  - `ka_users.csv`.
 - Run the notebook `kabam.ipynb`.
